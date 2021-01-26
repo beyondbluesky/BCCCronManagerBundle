@@ -1,15 +1,20 @@
 {
-    "name": "bcc/cron-manager-bundle",
+    "name": "beyondbluesky/cron-manager-bundle",
     "type": "symfony-bundle",
     "description": "A cron table manager bundle for Symfony",
     "keywords": ["cron management"],
-    "homepage": "http://github.com/michelsalib/BCCCronManagerBundle",
+    "homepage": "http://github.com/beyoncbluesky/BCCCronManagerBundle",
     "license": "MIT",
     "authors": [
         {
             "name": "Michel Salib",
             "email": "michelsalib@hotmail.com",
             "homepage": "http://www.michelsalib.com"
+        },
+        {
+            "name": "Josep Llauradó Selvas",
+            "email": "pep@beyondbluesky.com",
+            "homepage": "http://www.beyondbluesky.com"
         }
     ],
     "require": {
