@@ -1,8 +1,12 @@
 <?php
 
 namespace BCC\CronManagerBundle\Twig;
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFilter;
 
-class TwigExtension extends \Twig_Extension implements \Twig_Extension_GlobalsInterface
+use App\Repository\IntranetRepository;
+
+class TwigExtension extends AbstractExtension
 {
     /**
      * @var array
